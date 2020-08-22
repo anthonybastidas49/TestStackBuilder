@@ -126,7 +126,7 @@
                         <ModalBackgroundStyle Opacity="70"></ModalBackgroundStyle>
                         <FooterTemplate>
                             <center>
-                                <dx:ASPxButton ID="cmdCerrar" runat="server" Text="Salir"  Style="background: #cd0c10; color: white" OnClick="cmdCerrar_Click"  ValidationGroup="FALSE"></dx:ASPxButton>
+                                <dx:ASPxButton ID="cmdClose" runat="server" Text="Salir"  Style="background: #cd0c10; color: white" OnClick="cmdClose_Click"  ValidationGroup="FALSE"></dx:ASPxButton>
                             </center>
                         </FooterTemplate>
                         <ContentCollection>

@@ -1,6 +1,0 @@
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBAL\bin\Debug\SBAL.dll
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBAL\bin\Debug\SBAL.pdb
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBAL\obj\Debug\SBAL.csproj.CoreCompileInputs.cache
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBAL\obj\Debug\SBAL.dll
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBAL\obj\Debug\SBAL.pdb
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBAL\obj\Debug\SBAL.csprojAssemblyReference.cache
