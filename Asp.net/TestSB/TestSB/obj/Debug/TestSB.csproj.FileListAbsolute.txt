@@ -109,3 +109,7 @@ D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\TestSB\bin\es\DevExpress
 D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\TestSB\bin\ja\DevExpress.Pdf.v18.1.Core.resources.dll
 D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\TestSB\bin\ru\DevExpress.Pdf.v18.1.Core.resources.dll
 D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\TestSB\obj\Debug\TestSB.dll.licenses
+D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\TestSB\bin\SBAL.dll
+D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\TestSB\bin\SBBL.dll
+D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\TestSB\bin\SBAL.pdb
+D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\TestSB\bin\SBBL.pdb

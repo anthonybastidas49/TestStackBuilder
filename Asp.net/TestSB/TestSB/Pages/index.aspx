@@ -21,7 +21,7 @@
                     </dx:ASPxCallback>
                     <dx:ASPxLoadingPanel ID="LoadingPanel" runat="server" ClientInstanceName="LoadingPanel" Text=""
                         Modal="True">
-                        <Image Url="~/Content/Images/Contenido/loading.gif">
+                        <Image Url="~/Content/Images/loading.gif">
                         </Image>
                     </dx:ASPxLoadingPanel>
           <dx:ASPxFormLayout runat="server" ID="formLayout" CssClass="formLayout">
@@ -120,6 +120,26 @@
                             </dx:PopupControlContentControl>
                         </ContentCollection>
                     </dx:ASPxPopupControl>
+                    <dx:ASPxPopupControl ID="poupMensaje" runat="server" ModalBackgroundStyle-Opacity="70" HeaderText="Información" EnableAnimation="false"
+                        ShowCloseButton="false" ShowPageScrollbarWhenModal="true" Modal="true" PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" Style="font-weight: 700" Width="300px" Height="200px" CloseAction="None" ShowFooter="True" EnableTheming="False">
+                        <HeaderStyle BackColor="#cd0c10" ForeColor="White" />
+                        <ModalBackgroundStyle Opacity="70"></ModalBackgroundStyle>
+                        <FooterTemplate>
+                            <center>
+                                <dx:ASPxButton ID="cmdCerrar" runat="server" Text="Salir"  Style="background: #cd0c10; color: white" OnClick="cmdCerrar_Click"  ValidationGroup="FALSE"></dx:ASPxButton>
+                            </center>
+                        </FooterTemplate>
+                        <ContentCollection>
+                            <dx:PopupControlContentControl runat="server">
+                                <center>
+                                <br />
+                                <dx:ASPxImage ID="imgWarning" runat="server" ShowLoadingImage="true" Width="100px"></dx:ASPxImage>
+                                <br />
+                                <dx:ASPxLabel Font-Bold="true" Font-Size="Medium"  ID="lblWarning" runat="server"></dx:ASPxLabel>
+                               </center>
+                            </dx:PopupControlContentControl>
+                        </ContentCollection>
+                        </dx:ASPxPopupControl>
                 </ContentTemplate>
             </asp:UpdatePanel>
         </div>
