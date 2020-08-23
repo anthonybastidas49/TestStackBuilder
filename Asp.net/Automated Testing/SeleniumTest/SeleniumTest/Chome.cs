@@ -28,7 +28,7 @@ namespace SeleniumTest
         /// Method in charge of initializing components
         /// </summary>
         /// <param name="plate">Plate</param>
-        /// <param name="dateTime">Date</param>
+        /// <param name="dateTime">DateSele</param>
         public void testData(String plate, DateTime dateTime)
         {
             try

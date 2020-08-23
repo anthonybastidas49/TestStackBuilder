@@ -46,7 +46,7 @@ namespace TestSB.Pages
                 }
                 else
                 {
-                    this.showMessage("Error", "Placa Incorrecta", "~/Content/Images/nok.png");
+                    this.showMessage("Error", "Placa Incorrecta, Formato: PKC0123", "~/Content/Images/nok.png");
                 }
             }
             catch(Exception ex)

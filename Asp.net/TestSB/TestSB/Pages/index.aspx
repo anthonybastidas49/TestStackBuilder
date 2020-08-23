@@ -35,7 +35,7 @@
                         <dx:LayoutItem Caption="Ingrese su placa:">
                             <LayoutItemNestedControlCollection>
                                 <dx:LayoutItemNestedControlContainer>
-                                    <dx:ASPxTextBox runat="server" ID="txtPlaca">
+                                    <dx:ASPxTextBox runat="server" ID="txtPlaca" DisplayFormatString = "PKC7078">
                                         <ValidationSettings Display="Dynamic" ValidationGroup="infoSend" >
                                             <RequiredField ErrorText="Obligatorio" IsRequired="True" />
                                         </ValidationSettings>
