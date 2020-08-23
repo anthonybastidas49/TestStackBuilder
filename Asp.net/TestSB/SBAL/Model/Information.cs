@@ -8,7 +8,7 @@ namespace SBAL.Model
 {
     public class Information
     {
-        public string placa { get; set; }
+        public string plate { get; set; }
         public int lastDigit { get; set; }
         public DateTime dateTime { get; set; }
     }

@@ -77,7 +77,7 @@
             </Items>
           </dx:ASPxFormLayout>
                     <div style="text-align: center">
-                        <dx:ASPxButton ID="btnSearch" runat="server" OnClick="btnSearch_Click" ValidationGroup="infoSend" Style="background: #CC0000; color: white; width: 30%" Text="Agregar">
+                        <dx:ASPxButton ID="btnSearch" runat="server" OnClick="btnSearch_Click" ValidationGroup="infoSend" Style="background: #CC0000; color: white; width: 30%" Text="Consultar">
                             <Image IconID="actions_search_16x16devav"></Image>
                             <ClientSideEvents Click="function(s, e) {Callback.PerformCallback();LoadingPanel.Show();}" />
                         </dx:ASPxButton>

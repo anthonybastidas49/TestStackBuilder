@@ -1,9 +1,0 @@
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBBL\bin\Debug\SBBL.dll
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBBL\bin\Debug\SBBL.pdb
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBBL\bin\Debug\SBAL.dll
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBBL\bin\Debug\SBAL.pdb
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBBL\obj\Debug\SBBL.csprojAssemblyReference.cache
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBBL\obj\Debug\SBBL.csproj.CoreCompileInputs.cache
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBBL\obj\Debug\SBBL.csproj.CopyComplete
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBBL\obj\Debug\SBBL.dll
-D:\Trabajo\StackBuilder\TestStackBuilder\Asp.net\TestSB\SBBL\obj\Debug\SBBL.pdb

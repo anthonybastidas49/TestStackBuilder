@@ -17,6 +17,7 @@ namespace TestSB.Pages
             if (!IsPostBack)
             {
                 date.Value = DateTime.Now;
+                time.Value = DateTime.Now;
             }
             information = new Information();
         }
@@ -29,9 +30,9 @@ namespace TestSB.Pages
         {
             try
             {
-                if (bl.validatePlaca(txtPlaca.Text.ToUpper()))
+                if (bl.validatePlate(txtPlaca.Text.ToUpper()))
                 {
-                    information.placa = txtPlaca.Text.ToUpper();
+                    information.plate = txtPlaca.Text.ToUpper();
                     information.lastDigit = (int)char.GetNumericValue(txtPlaca.Text[txtPlaca.Text.Length - 1]);
                     information.dateTime = DateTime.Parse(date.Date.ToShortDateString()+" "+time.DateTime.ToShortTimeString());
                     if (bl.canCirculate(information))

@@ -11,18 +11,17 @@ namespace SBBL.Catalogs
         /// <summary>
         /// Method in charge of carrying out the validation of a plate
         /// </summary>
-        /// <param name="placa"></param>
+        /// <param name="plate"></param>
         /// <returns>Whether it can circulate</returns>
-        public bool validatePlaca(String placa)
+        public bool validatePlate(String plate)
         {
-            Regex reg = new Regex("[0-9]");
             try
             {
-                if (placa.Length == 7)
+                if (plate.Length == 7)
                 {
-                    if (placa.Substring(0, 3).All(char.IsLetter) && placa.Substring(3).All(char.IsDigit))
+                    if (plate.Substring(0, 3).All(char.IsLetter) && plate.Substring(3).All(char.IsDigit))
                     {
-                        return PROVINCES.IndexOf(placa[0]) >= 0 ? true: false;                    }
+                        return PROVINCES.IndexOf(plate[0]) >= 0 ? true: false;                    }
                     else
                     {
                         return false;
@@ -32,7 +31,11 @@ namespace SBBL.Catalogs
                 {
                     return false;
                 }
-            }catch(Exception e)
+            }catch(NullReferenceException e)
+            {
+                throw e;
+            }
+            catch (IndexOutOfRangeException e)
             {
                 throw e;
             }
@@ -78,7 +81,11 @@ namespace SBBL.Catalogs
 
                 }
             }
-            catch(Exception e)
+            catch(InvalidCastException e)
+            {
+                throw e;
+            }
+            catch (NullReferenceException e)
             {
                 throw e;
             }
@@ -92,10 +99,17 @@ namespace SBBL.Catalogs
         /// <returns>If it is within that range or not</returns>
         private bool insideHours(String startTime, String endTime, String checkTime)
         {
-            DateTime start = Convert.ToDateTime(startTime);
-            DateTime end = Convert.ToDateTime(endTime);
-            DateTime check = Convert.ToDateTime(checkTime);
-            return check >= start && check <= end;
+            try
+            {
+                DateTime start = Convert.ToDateTime(startTime);
+                DateTime end = Convert.ToDateTime(endTime);
+                DateTime check = Convert.ToDateTime(checkTime);
+                return check >= start && check <= end;
+            }
+            catch (InvalidCastException ex)
+            {
+                throw ex;
+            }
         }
     }
 }
