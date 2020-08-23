@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBBL", "SBBL\SBBL.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBAL", "SBAL\SBAL.csproj", "{A41210E2-4030-48F4-8284-AE23214B9773}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSB", "UnitTestSB\UnitTestSB.csproj", "{8527668E-DA5A-4297-B70D-9E60F856829E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A41210E2-4030-48F4-8284-AE23214B9773}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A41210E2-4030-48F4-8284-AE23214B9773}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A41210E2-4030-48F4-8284-AE23214B9773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8527668E-DA5A-4297-B70D-9E60F856829E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8527668E-DA5A-4297-B70D-9E60F856829E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8527668E-DA5A-4297-B70D-9E60F856829E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8527668E-DA5A-4297-B70D-9E60F856829E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
